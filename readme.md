@@ -29,15 +29,14 @@ The issue of a song belonging to one or more category is resolved by assigning t
 
 ##Models useds and their accuracies.
 
-Models
-Training accuracy Testing accuracy
-Logistic Regression 88.12% 82.05%
+Models | Training accuracy | Testing accuracy
+Logistic Regression | 88.12% | 82.05%
 
-Naive Bayes 78.45% 76.28%
+Naive Bayes | 78.45% | 76.28%
 
-KNN 78.17% 78.84%
+KNN | 78.17% | 78.84%
 
-SVM 87.84% 76.92%
+SVM | 87.84% | 76.92%
 
 ## Prerequisites
 
