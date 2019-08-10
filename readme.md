@@ -28,14 +28,14 @@ We have taken 518 songs and extracted 18 features from them using librosa and sa
 The issue of a song belonging to one or more category is resolved by assigning them to a particular mood category out of four.
 
 ## Models useds and their accuracies.
-```
+
 | Models | Training accuracy | Testing accuracy |
 |------- | ----------------- | ---------------- |
 | Logistic Regression | 88.12% | 82.05% |
 | Naive Bayes | 78.45% | 76.28% |
 | KNN | 78.17% | 78.84% |
 | SVM | 87.84% | 76.92% |
-```
+
 
 ## Prerequisites
 
