@@ -1,26 +1,29 @@
 # MUSIC MOOD RECOGNITION
 
-Our Final year project using Machine learning approach to predict the mood of the music or a song and using that predicted mood to create a customized playlist from a list of available songs in local directory.
+A machine learning approach to predict the mood of the music or a song and using that predicted mood to create a customized playlist from a list of available songs in local directory.
 
 ## Approach
 
 We have taken 518 songs and extracted 18 features from them using librosa and saved in _dataset.csv_ file. Mean,standard deviation and variance of all those 18 features is calculated as well. By doing that total number of input features in the dataset are 54. To manually label these songs with ease, we have relied on the top spotify playlists which are created according to the moods. Some of them are:
 
 1. Happy Songs
-   [x][happy hits](https://open.spotify.com/playlist/37i9dQZF1DXdPec7aLTmlC)
-   [x][happy summer beats](https://open.spotify.com/playlist/37i9dQZF1DWSf2RDTDayIx)
-   [x][wake up happy](https://open.spotify.com/playlist/37i9dQZF1DX0UrRvztWcAU)
+
+   - [happy hits](https://open.spotify.com/playlist/37i9dQZF1DXdPec7aLTmlC)
+   - [happy summer beats](https://open.spotify.com/playlist/37i9dQZF1DWSf2RDTDayIx)
+   - [wake up happy](https://open.spotify.com/playlist/37i9dQZF1DX0UrRvztWcAU)
 
 2. Relax Playlists
-   [x][relax & unwind](https://open.spotify.com/playlist/37i9dQZF1DWU0ScTcjJBdj)
-   [x][deep house relax](https://open.spotify.com/playlist/37i9dQZF1DX2TRYkJECvfC)
+
+   - [relax & unwind](https://open.spotify.com/playlist/37i9dQZF1DWU0ScTcjJBdj)
+   - [deep house relax](https://open.spotify.com/playlist/37i9dQZF1DX2TRYkJECvfC)
 
 3. Angry Playlists
-   [x][angry songs](https://open.spotify.com/playlist/71Xpaq3Hbpxz6w9yDmIsaH)
+
+   - [angry songs](https://open.spotify.com/playlist/71Xpaq3Hbpxz6w9yDmIsaH)
 
 4. Sad Playlists
-   [x][sad songs](https://open.spotify.com/playlist/37i9dQZF1DX7qK8ma5wgG1)
-   [x][sad beats](https://open.spotify.com/playlist/37i9dQZF1DWVrtsSlLKzro)
+   - [sad songs](https://open.spotify.com/playlist/37i9dQZF1DX7qK8ma5wgG1)
+   - [sad beats](https://open.spotify.com/playlist/37i9dQZF1DWVrtsSlLKzro)
 
 The issue of a song belonging to one or more category is resolved by assigning them to a particular mood category out of four.
 
